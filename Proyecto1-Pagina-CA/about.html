@@ -56,47 +56,93 @@
     
     <br><br>
     <div class="container">
-       <h1> Macotas</h1>
+    <h1> Mascotas</h1>
             <p>Actualmente cuento con 3 Gatos los cuales a lo largo de mi vida me  han acompñado
-            y han tenido momnetos importantes conmigo 
+            y han tenido momnetos importantes conmigo. 
             </p>
-    </div>
+        <hr style="border: 5px solid; color: blue;">
+        <h2> Chicharo (Gato amarillo)</h2>
+        <p class="justify-text"> Era el 20 de marzo de 2020, justo cuando la pandemia comenzaba a cambiar el ritmo de nuestras vidas.
+            En medio de la incertidumbre, un amigo me regaló a Chícharo, un gato amarillo con mirada curiosa y
+            energía inagotable. Desde el primer día, se convirtió en mi compañero silencioso, el que recorría la
+            casa como si fuera su reino y se acurrucaba cerca cuando el mundo parecía detenerse.</p>
 
-    <!--Ejemplo tabla-->
-    <div class="">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Numero de registro</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Apellido_P</th>
-                    <th scope="col">Apellido_M</th>
-                </tr>
-                <tbody>
-                    <tr>
-                        <!--Fila 1-->
-                        <th scope="row">1</th>
-                        <th>Jo&eacute; Juan</th>
-                        <th>Perez</th>
-                        <th>Hernandez</th>
-                    </tr>
-                    <!--Fila 2-->
-                    <tr>
-                        <th scope="row">2</th>
-                        <th>Julio</th>
-                        <th>Ramos</th>
-                        <th>Cuevas</th>
-                    </tr>
-                    <tr>
-                        <!--Fila 3-->
-                        <th scope="row">3</th>
-                        <th>Ajax</th>
-                        <th>Ortega</th>
-                        <th>Torres</th>
-                    </tr>
-                </tbody>
-            </thead>
-        </table>
+        <h3>Silvestre (Gato negro con blanco)</h3>
+        <p class="justify-text">En 2021, mi papá me sorprendió con un regalo especial: un gato al que llamé Silvestre,
+            molestaba seguido a mi mama cons sus travesuras Pero un día, simplemente no regresó. Se escapó, como si el
+            mundo lo llamara a nuevas aventuras. No sé dónde está ahora, pero a veces me gusta pensar que sigue explorando,
+            libre como siempre quiso ser.</p>
+        <h4>Molly (Gato atigrado)</h4>
+        <p class="justify-text">En 2013, viví uno de esos momentos que marcan para siempre. Encontré a una pequeña gata
+            dentro de una bolsa, abandonada con la intención cruel de que no sobreviviera. La rescaté, la saqué de ese 
+            encierro injusto, y desde entonces, Molly ha estado bajo mi cuidado. cada día que la veo, recuerdo que salvarla
+            también me enseñó algo sobre mí: que cuidar, proteger y dar amor puede cambiarlo todo.</p>
+    </div>
+    <br>
+    
+    <!--IMAGENES GALERIA-->
+    <style>
+    .card-title {
+        position: absolute;
+        bottom: 15px;
+        left: 40px;
+        color: white;
+    }
+    .rgba-stylish-strong {
+        background-color: rgba(62, 69, 81, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    .image-container {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0 0 10px 10px;
+    }
+    </style>
+
+    <div class="container mt-4">
+    <section>
+        <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4">
+            <div class="image-container">
+            <img src="img/gato1.jpg" class="img-fluid rounded-bottom" alt="Imagen 1" style="width: 100%; height: auto;">
+            <div class="rgba-stylish-strong">
+                <h4 class="card-title font-weight-bold">
+                <strong>Chicharo</strong>
+                </h4>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4">
+            <div class="image-container">
+            <img src="img/gato2.jpeg" class="img-fluid rounded-bottom" alt="Imagen 1" style="width: 100%; height: auto;">
+            <div class="rgba-stylish-strong">
+                <h4 class="card-title font-weight-bold">
+                <strong>Silvestre</strong>
+                </h4>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4">
+            <div class="image-container">
+            <img src="img/gato3.jpeg" class="img-fluid rounded-bottom" alt="Imagen 1" style="width: 100%; height: auto;">
+            <div class="rgba-stylish-strong">
+                <h4 class="card-title font-weight-bold">
+                <strong>Molly</strong>
+                </h4>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>  
+    <br>
+    
 
         <!--Ejemplo Tabla 2-->
         <br>
@@ -105,107 +151,72 @@
                 <tr>
                     <th scope="col">Numero de registro</th>
                     <th scope="col">Nombre</th>
-                    <th scope="col">Apellido_P</th>
-                    <th scope="col">Apellido_M</th>
+                    <th scope="col">Apodo</th>
+                    <th scope="col">Peso</th>
                 </tr>
                 <tbody>
                     <tr>
                         <!--Fila 1-->
                         <th scope="row">1</th>
-                        <th>Jo&eacute; Juan</th>
-                        <th>Perez</th>
-                        <th>Hernandez</th>
+                        <th> Silvestre</th>
+                        <th> Molon</th>
+                        <th>4.5Kg</th>
                     </tr>
                     <!--Fila 2-->
                     <tr>
                         <th scope="row">2</th>
-                        <th>Julio</th>
-                        <th>Ramos</th>
-                        <th>Cuevas</th>
+                        <th>Chicharo</th>
+                        <th>Amarillo</th>
+                        <th>7,5KG</th>
                     </tr>
                     <tr>
                         <!--Fila 3-->
                         <th scope="row">3</th>
-                        <th>Ajax</th>
-                        <th>Ortega</th>
-                        <th>Torres</th>
+                        <th>Molly</th>
+                        <th>Avada</th>
+                        <th>5kg</th>
                     </tr>
                 </tbody>
             </thead>
         </table>
         <br>
-        <!--Tabla 3-->
+
+    <!--Tabla 3-->
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th scope="col">Numero de registro</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Apellido_P</th>
-                    <th scope="col">Apellido_M</th>
+                    <th scope="col">Gato</th>
+                    <th scope="col">Esterilizado</th>
+                    <th scope="col">Sexo</th>
+                    <th scope="col">Comportamiento</th>
                 </tr>
                 <tbody>
                     <tr>
                         <!--Fila 1-->
-                        <th scope="row">1</th>
-                        <th>Jo&eacute; Juan</th>
-                        <th>Perez</th>
-                        <th>Hernandez</th>
+                        <th scope="row">Silvestre</th>
+                        <th>si</th>
+                        <th>Macho</th>
+                        <th>Curioso</th>
                     </tr>
                     <!--Fila 2-->
                     <tr>
-                        <th scope="row">2</th>
-                        <th>Julio</th>
-                        <th>Ramos</th>
-                        <th>Cuevas</th>
+                        <th scope="row">Chicharo</th>
+                        <th>Si</th>
+                        <th>Macho</th>
+                        <th>Jugueton</th>
                     </tr>
                     <tr>
                         <!--Fila 3-->
-                        <th scope="row">3</th>
-                        <th>Ajax</th>
-                        <th>Ortega</th>
-                        <th>Torres</th>
+                        <th scope="row">Molly</th>
+                        <th>Si</th>
+                        <th>Hembra</th>
+                        <th>Dormilona</th>
                     </tr>
                 </tbody>
             </thead>
         </table>
     </div>
 
-    <!--IMAGENES GALERIA-->
-
-    <div class="container">
-        <section>
-            <style>
-                .news-tile .card-title {
-                    position: absolute;
-                    bottom: 15px;
-                    left: 40px;
-                }
-                .rgba-stylish-strong {
-                    background-color:rgba(62, 69, 81, .5);
-                }
-            </style>
-
-                <div class="row">
-        <div class="col-lg-4 col-md-12 mb-4">
-            <div class="news-tile shadow mb-4">
-            <a href="#!" class="text-decoration-none text-white">
-                <img src="img/gato1.jpg" alt="Imagen gato" class="img-fluid">
-                <div class="overlay">
-                <div>
-                    <h4 class="card-title">
-                    <strong>Nombre imagen</strong>
-                    </h4>
-                    <p class="mb-0">Texto de ejemplo</p>
-                </div>
-                </div>
-            </a>
-            </div>
-        </div>
-        </div>
-    </section>
-    </div>
-
-    
 
     
     
@@ -214,11 +225,11 @@
         <div class="row">
             <div class="col-md-12 py-5">
                 <div class="margin-5 flex-center">
-                    <a class="fb-ic">
-                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    <a href="https://www.facebook.com/" class="fb-ic">
+                        <i  class="fa-brands fa-facebook fa-xl text-secondary mb-3"></i>
                     </a>
-                    <a class="li-ic">
-                        <i class="fab fa-linkedin-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    <a href="https://www.linkedin.com/in/dante-santiago-460a45346/" class="li-ic">
+                        <i class="fa-brands fa-linkedin fa-xl  text-secondary mb-3"></i>
                     </a>
                 </div>
             </div>
