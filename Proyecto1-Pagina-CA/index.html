@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Pagina1</title>
     <header>
         <div class="container">
@@ -52,6 +52,45 @@
 </header>
 </head>
 <body>
+
+    <br>
+    <div class="container"> 
+        <!-- Slider -->
+    <div  id="carousel-1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Imágenes -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img class="d-block w-100" src="img/comida-pescadoF.jpg" alt="Foto de platillo pescado">
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100" src="img/comida-sushi.jpg" alt="Imagen de Sushi empanizado">
+        </div>
+        <div class="carousel-item">
+        <img class="d-block w-100" src="img/pechugas.jpg" alt="Imagen pechugas en crema">
+        </div>
+    </div>
+
+    <!--Controladores-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel-1" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+    </button>
+    </div>
+
+    <!--Fin slider-->
+
     
     <br><br>
     <div class="container">
@@ -61,23 +100,58 @@
             </p>
         <img class="container" src="img/Danooi.jpeg" alt="imagen pagina-web facebook" height="1000" width="100">
     </div>
+
+    <!--Seccion de noticia-->
+    <div class="container mt-5 pt-5 px-5 shadow">
+        <section class="text-center text-bg-grey p-4 rounded">
+            <div class="row justify-content-center">
     
+            <div class="col-lg-3 col-md-6 mb-4">
+                <i class="fa-regular fa-circle-user fa-2x text-secondary mb-3"></i>
+            <h5 class="fw-normal mb-3">Suscríbete</h5>
+                <p class="text-muted mb-0">Te estamos esperando</p>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4">
+                <i class="fa-solid fa-thumbs-up fa-2x text-secondary mb-3"></i>
+            <h5 class="fw-normal mb-3">Te informamos</h5>
+                <p class="text-muted mb-0">En todo momento</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <i class="fa-solid fa-cloud fa-2x text-secondary mb-3"></i>
+            <h5 class="fw-normal mb-3">Te informamos</h5>
+                <p class="text-muted mb-0">En todo momento</p>
+            </div>
+    
+            <div class="col-lg-3 col-md-6 mb-4">
+                <i class="fa-solid fa-bell fa-2x text-secondary mb-3"></i>
+            <h5 class="fw-normal mb-3">Aviso</h5>
+                <p class="text-muted mb-0">Mantente en contacto</p>
+            </div>
+        </div>
+        </section>
+</div>
+
+<br>
 <footer class="bg-primary text-white text-center py-3 cont">
     <div class="container">
         <div class="row">
             <div class="col-md-12 py-5">
                 <div class="margin-5 flex-center">
                     <a class="fb-ic">
-                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                        <i class="fa-brands fa-facebook fa-xl text-secondary mb-3"></i>
                     </a>
                     <a class="li-ic">
-                        <i class="fab fa-linkedin-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                        <i class="fa-brands fa-linkedin fa-xl  text-secondary mb-3"></i>
                     </a>
                 </div>
             </div>
         </div>
     </div>
 </footer>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
